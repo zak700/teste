@@ -1,0 +1,84 @@
+html {
+    color: #eef;
+    text-align: center;
+    font-size: 30px;
+}
+
+.blue-box {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.blue-box-container {
+    display: flex;
+    flex-direction: row nowrap;
+    position: relative;
+    width: calc(100% + 200px);
+    left: -200px;
+    animation: bah 5s infinite ease-in-out;
+}
+
+.body {
+    box-shadow: 0 0 50px #001;
+    margin: 20px;
+    border: solid 5px #449;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #335;
+}
+
+body {
+    padding: 0;
+    background-color: #448;
+}
+
+input {
+    height: 15px;
+    width: 15px;
+}
+
+.input-container {
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #0005;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: solid #99f 4px;
+    background-color: #225;
+}
+
+button {
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.cred-container {
+    background-color: #55f;
+    padding: 20px;
+}
+
+.cred {
+    font-size: 20px;
+
+    margin: 0;
+    text-align: left;
+}
+
+@keyframes bah {
+    50% {
+        left: 0;
+    }
+}
+
+* {
+    margin: 0;
+}
